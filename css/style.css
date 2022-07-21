@@ -1,0 +1,313 @@
+font-family: 'Cabin', sans-serif;
+
+* {
+    
+    padding: 0;
+    
+    
+}
+body {
+    max-width: 1440px;
+    margin: auto;
+    background-image: url("../images/bg_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0px;
+    background-size: 1440px;
+    background-color: #E5E5E5;
+    
+}
+
+/************ Header *************/
+
+.header__main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 26px 0 0 0;
+    /* border: 1px solid red; */
+}
+.header__main-img {
+    margin: 0 0 0 140px
+}
+.header__main-list {
+    display: flex;
+    list-style: none;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175.7%;
+    color: #FFFFFF;   
+    margin-left: 600px;
+    margin-right: 32px; 
+}
+.header__main-list-item {
+    padding-left: 32px;
+}
+.header_main-btn {
+    margin: 0 140px 0 0;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    width: 105px;
+    height: 43px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+/************* Content Main **************/
+
+.content__main {
+    max-width: 478px;
+    margin-left: 140px;
+    margin-top: 134px;
+}
+.content__main-heading {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+.content__main-text {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 146.2%;
+    color: #FFFFFF;
+}
+.content__main-container {
+    display: flex;
+
+}
+.content__main-btn {
+    width: 165px;
+    height: 56px;
+    background-color: #0BCBFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.content__main-input {
+    width: 298px;
+    color: #6D7D8B;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175.7%;
+    border-radius: 4px;
+    border: none;
+    padding: 15px;
+}
+
+/**********8 Link ***********/
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/************* Content Second ***************/
+
+.content__second {
+    display: flex;
+    margin-top: 402px
+}
+.content__second-container {
+    margin-left: 140px;
+    text-align: left;
+    align-self: center;
+    width: 467px;
+}
+.content__second-header {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    color: #213751;
+}
+.content__second-text {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163.15%;
+    color: rgba(33, 55, 81, 0.7);
+}
+.content__second-more {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175.7%;
+    color: #0BCBFF;
+}
+.content__second-image {
+    margin-left: auto;
+}
+
+/**************** Content Three **************/
+
+.content__three {
+    display: flex;
+    margin: 194px 140px 0 140px;
+    justify-content: space-between;
+}
+.content__three-containt-img {
+
+}
+.content__three-img01 {
+    width: 565px;
+    height: 562px;
+}
+.content__three-container-text {
+    width: 467px;
+    height: 368px;
+    margin-left: 129px;
+    display: flex;
+    flex-direction: column;
+}
+.content__three-header {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    color: #213751;
+}
+.content__three-text {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163.15%;
+    color: rgba(33, 55, 81, 0.7);
+}
+.content__three-more {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175.7%;
+    color: #0BCBFF;
+}
+.content__more-arrow {
+    margin-left: 4px;
+}
+
+/**************** Footer ******************/
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #314051;
+}
+.footer__main-container {
+    /* border: 1px solid white; */
+    margin: 75px 0 0 140px;
+    width: 142px;
+}
+.footer__main-header {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 175.7%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    /* border: 1px solid white; */
+    margin: 0;
+}
+.footer__main-text {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150.6%;
+    color: rgba(255, 255, 255, 0.6);
+    /* border: 1px solid white; */
+    margin: 0;
+}
+.footer__main-list-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 140px 0205px 0;
+}
+.footer__main-list {
+    list-style: none;
+    padding-left: 100px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.footer__main-list-item {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150.6%;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 4px;
+}
+.item-one {
+    padding-top: 21px
+}
+.footer__main-input-container {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 1px solid white; */
+    margin-left: 60px;
+}
+.footer__main-list-input {
+    list-style: none;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-left: 0;
+}
+.footer__main-list-item-input {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150.6%;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-input {
+    /* align-self: center; */
+    width: 267px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    padding: 0 0 0 15px;
+}
