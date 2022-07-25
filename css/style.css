@@ -1,10 +1,8 @@
 font-family: 'Cabin', sans-serif;
 
 * {
-    
+    margin: 0;
     padding: 0;
-    
-    
 }
 body {
     max-width: 1440px;
@@ -174,12 +172,27 @@ a {
     margin: 194px 140px 0 140px;
     justify-content: space-between;
 }
-.content__three-containt-img {
-
+.content__three-container-img {
+    position: relative;
+    top: 0;
+    left: 0;
 }
 .content__three-img01 {
+    position: relative;
+    top: 0;
+    left: 0;
     width: 565px;
     height: 562px;
+}
+.content__three-img02 {
+    position: absolute;
+    top: 52px;
+    left: 247px;
+}
+.content__three-img03 {
+    position: absolute;
+    top: 180px;
+    left: 247px;
 }
 .content__three-container-text {
     width: 467px;
@@ -215,6 +228,68 @@ a {
 .content__more-arrow {
     margin-left: 4px;
 }
+
+/**************** Content Four ***************/
+
+.content__four {
+    display: flex;
+    margin: 150px 140px 150px 140px;
+    justify-content: space-between;
+}
+.content__four-container-img {
+    /* position: relative;
+    top: 0;
+    left: 0; */
+}
+.content__four-img01 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 565px;
+    height: 562px;
+}
+.content__four-img02 {
+    position: absolute;
+    top: 64px;
+    left: 68.44px;
+    width: 197.7px;
+    height: 238px;
+}
+.content__four-container-text {
+    width: 467px;
+    /* height: 300px; */
+    margin-right: 129px;
+    display: flex;
+    flex-direction: column;
+}
+.content__four-header {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
+    color: #213751;
+}
+.content__four-text {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163.15%;
+    color: rgba(33, 55, 81, 0.7);
+}
+.content__four-more {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175.7%;
+    color: #0BCBFF;
+}
+.content__more-arrow {
+    margin-left: 4px;
+}
+
 
 /**************** Footer ******************/
 
